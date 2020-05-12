@@ -8,23 +8,22 @@
             font-family: Postface;
             src: url("Postface.otf");
         }
-        h1{
-            text-align: center;
-            margin: 50px;
-            font: 55px black;
-            font-family: Postface;
-            font-style: oblique;
+        
+        body{
+            background-color: black;/*
+            background-image:url('img/simple-mountain.jpg');
+            background-repeat: no-repeat;
+            background-position: center;*/
         }
         a{
-            color: black;
+            color: white;
             text-decoration: none;
         }
         #topmenu{
             margin: 0;
             padding: 0;
             text-align: center;
-            border-bottom: gray 1px solid;
-            border-top: gray 1px solid;
+            /*border-bottom: gray 1px solid;*/
         }
         #topmenu li{
             display: inline;
@@ -33,16 +32,39 @@
             padding: 60px;
             font-weight: bold;
         }
+        #main{
+            height: 700px;
+            background-color: black;
+            background-image:url('img/simple-mountain.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            
+        }
+        #main h1{
+            font: 55px;
+            font-family: Postface;
+            font-style: oblique;
+            
+
+        }
+        #main a{
+            display: inline;
+            text-align: center;
+            vertical-align: middle;
+        }
+        
         
         
     </style>
 </head>
 <body>
-    <h1><a href = "index.html">DH WEV SITE</a></h1>
     <ul id = "topmenu">
         <li><a href = "profile.html">Profile</a></li>
         <li><a href = "review.html" >Review</a></li>
         <li><a href = "exhibition.html" >Exhibition</a></li>
     </ul>
+    <div id = "main">
+        <h1><a href = "index.html">DH WEV SITE</a></h1>
+    </div>
 </body>
 </html>
