@@ -1,19 +1,24 @@
 <!doctype html>
 <html>
 <head>
-    <title>DH WEV SITE</title>
+    <title>Yoon Du Hyeon</title>
     <meta charset = "utf-8">
     <style>
         @font-face {
-            font-family: Postface;
-            src: url("Postface.otf");
+            font-family: Royalo;
+            src: url("font/Royalacid_o.ttf");
+        }
+        @font-face {
+            font-family: Royal;
+            src: url("font/Royalacid.ttf");
         }
         
         body{
-            background-color: black;/*
-            background-image:url('img/simple-mountain.jpg');
-            background-repeat: no-repeat;
-            background-position: center;*/
+            background-color: black;
+            text-align: center;
+            font-family: Royalo;
+            color: white;
+            text-decoration: none;
         }
         a{
             color: white;
@@ -21,50 +26,58 @@
         }
         #topmenu{
             margin: 0;
+            padding-top: 150px;
+            font-size: 22px;
+        }
+        #topmenu ul{
             padding: 0;
-            text-align: center;
-            /*border-bottom: gray 1px solid;*/
         }
         #topmenu li{
             display: inline;
             list-style: none;
-            line-height: 30px;
-            padding: 60px;
-            font-weight: bold;
+            padding: 50px;
         }
         #main{
-            height: 700px;
+            height: 150px;
+            font-style: italic;
             background-color: black;
             background-image:url('img/simple-mountain.jpg');
             background-repeat: no-repeat;
             background-position: center;
-            
-        }
-        #main h1{
-            font: 55px;
-            font-family: Postface;
-            font-style: oblique;
-            
-
-        }
-        #main a{
-            display: inline;
-            text-align: center;
             vertical-align: middle;
+            font-size: 55px;
+            padding-top: 100px;
         }
-        
-        
-        
+        #link{
+            font-family: Royal;
+            
+        }
+        #link div{
+            color: pink;
+            font-size: 23px;
+        }
+        #link a{
+            font-size: 17px;
+            color: purple;
+            text-decoration-line: underline;
+        }
     </style>
 </head>
 <body>
-    <ul id = "topmenu">
-        <li><a href = "profile.html">Profile</a></li>
-        <li><a href = "review.html" >Review</a></li>
-        <li><a href = "exhibition.html" >Exhibition</a></li>
-    </ul>
-    <div id = "main">
-        <h1><a href = "index.html">DH WEV SITE</a></h1>
-    </div>
+    <nav id = "topmenu">
+        <ul>
+            <li><a href = "introduce.html">Introduce</a></li>
+            <li><a href = "review.html" >Review</a></li>
+            <li><a href = "exhibition.html" >Exhibition</a></li>
+        </ul>
+    </nav>
+    <header id = "main">
+        <a href = "index.html">Yoon Du Hyeon</a>
+    </header>
+    <section id = "link">
+        <div>- link in bio -</div>
+        <a href = "https://github.com/yuunduu?tab=projects">github projects</a><br>
+        <a href = "https://www.instagram.com/yuunduu/">yuunduu instagram</a>
+    </section>
 </body>
 </html>

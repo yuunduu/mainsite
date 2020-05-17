@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Royalo;
+    src: url("font/Royalacid_o.ttf");
+}
+@font-face {
+    font-family: Royal;
+    src: url("font/Royalacid.ttf");
+}
+
+body{
+    background-color: black;
+    text-align: center;
+    font-family: Royalo;
+    color: white;
+    text-decoration: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#topmenu{
+    margin: 0;
+    padding-top: 150px;
+    font-size: 22px;
+}
+#topmenu ul{
+    padding: 0;
+}
+#topmenu li{
+    display: inline;
+    list-style: none;
+    padding: 50px;
+}
+#main{
+    height: 150px;
+    font-style: italic;
+    background-color: black;
+    background-image:url('img/simple-mountain.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+    font-size: 55px;
+    padding-top: 100px;
+}
+#link{
+    font-family: Royal;
+    
+}
+#link div{
+    color: pink;
+    font-size: 23px;
+}
+#link a{
+    font-size: 17px;
+    color: purple;
+    text-decoration-line: underline;
+}
